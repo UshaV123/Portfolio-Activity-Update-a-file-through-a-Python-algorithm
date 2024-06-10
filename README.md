@@ -1,11 +1,9 @@
-# Portfolio-Activity-Update-a-file-through-a-Python-algorithm
+# Project Name: Update-a-file-through-a-Python-algorithm
+
 ## Objective
 
 ## Steps
-Step 3: Open the file that contains the allow list
-Step 4: Read the file contents
 
-Step 5: Convert the string into a list
 - Step 1: Open the file that contains the allow list
 - Step 2: Read the file contents
 - Step 3: Convert the string into a list
@@ -14,7 +12,6 @@ Step 5: Convert the string into a list
 - Step 6: Update the file with the revised list of IP addresses
 - Step 7: Finalize your document
 
-Step 6: Iterate through the remove list
 ## Project description
 At my organization, access to restricted content is controlled with an allow list of IP addresses.
 The "allow_list.txt" file identifies these IP addresses. A separate remove list identifies IP
@@ -25,10 +22,8 @@ Open the file that contains the allow list
 For the first part of the algorithm, I opened the "allow_list.txt" file. First, I assigned this
 file name as a string to the import_file variable:
 
-Step 7: Remove IP addresses that are on the remove list
 Then, I used a with statement to open the file:
 
-Step 8: Update the file with the revised list of IP addresses
 In my algorithm, the with statement is used with the .open() function in read mode to open
 the allow list file for the purpose of reading it. The purpose of opening the file is to allow me to
 access the IP addresses stored in the allow list file. The with keyword will help manage the
@@ -39,7 +34,6 @@ case, "r" indicates that I want to read it. The code also uses the as keyword to
 variable named file; file stores the output of the .open() function while I work within the
 with statement.
 
-Step 9: Finalize your document
 Read the file contents
 In order to read the file contents, I used the .read() method to convert it into the string.
 
